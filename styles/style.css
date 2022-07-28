@@ -15,7 +15,9 @@
 }
 
 @media screen and (max-width:992px) and (min-width:769px) {
-
+    .course-box-responsive {
+        max-width: 100%;
+    }
 
     .header-font {
         font-size: 30px;
@@ -33,12 +35,16 @@
 }
 
 @media screen and (max-width:768px) {
+    .course-box-responsive {
+        max-width: 100%;
+    }
+
     .header-font {
         font-size: 20px;
     }
 
     .paragraph-font {
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .carousel-button {
