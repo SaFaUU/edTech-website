@@ -1,0 +1,10 @@
+.course-box-responsive {
+    max-width: 620px;
+}
+
+@media screen and (max-width:992px) {
+    .course-box-responsive {
+        max-width: none;
+    }
+
+}
